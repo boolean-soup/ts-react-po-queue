@@ -10,12 +10,9 @@ Build a React + TypeScript purchase order queue page that focuses specifically o
 - TypeScript fluency
 - component structure
 - practical React engineering
-
-**NOT backend infrastructure.**
-
 ---
 
-# Technical Constraints (IMPORTANT)
+# Technical Constraints
 
 ## You MUST use:
 
@@ -23,18 +20,6 @@ Build a React + TypeScript purchase order queue page that focuses specifically o
 - TypeScript
 - functional components
 - hooks only
-
-## You MUST NOT use:
-
-- Redux
-- Zustand
-- Context API
-- real backend
-- real database
-- external state libraries
-
-We are isolating React/TS fundamentals first.
-
 ---
 
 # Mock Backend Requirement
@@ -174,7 +159,6 @@ Show loading indicator while fetching.
 If initial fetch fails:
 
 - show error message
-- show retry button
 
 ---
 
@@ -222,50 +206,9 @@ But you SHOULD:
 
 ---
 
-# What You Are NOT Being Judged On
-
-NOT:
-
-- pixel-perfect styling
-- advanced architecture
-- folder perfection
-- design patterns
-- backend engineering
-
----
-
-# What You ARE Practicing
-
-# React
-
-- state updates
-- optimistic UI
-- async mutations
-- rendering behavior
-- component composition
-
----
-
-# TypeScript
-
-- typing async flows
-- prop typing
-- mutation typing
-- API contracts
-
----
-
-# Engineering Judgment
-
-- simplicity
-- maintainability
-- avoiding overengineering
-
----
-
 # AI Usage Rules
 
-# Allowed
+## Allowed
 
 - syntax lookup
 - React API clarification
@@ -274,7 +217,7 @@ NOT:
 
 ---
 
-# NOT allowed initially
+## NOT allowed initially
 
 - implementation generation
 - asking for architecture before attempting
